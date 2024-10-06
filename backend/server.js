@@ -4,11 +4,12 @@ import { getDatabase, set, get, child, query } from "https://www.gstatic.com/fir
 // Initialize Firestore
 
 
+
 const firebaseConfig = {
-  apiKey: "AIzaSyCkFIhhOe8Yrw7BHH0H-Yb_okogE2JKM4k",
+  apiKey:"AIzaSyCkFIhhOe8Yrw7BHH0H-Yb_okogE2JKM4k",
   authDomain: "empire-detailing.firebaseapp.com",
   projectId: "empire-detailing",
-  storageBucket: "empire-detailing.appspot.com",
+  storageBucket:"empire-detailing.appspot.com",
   messagingSenderId: "85545938528",
   appId: "1:85545938528:web:aaa54caa0508336fe49d05",
   measurementId: "G-C7E5QTBJKH"
