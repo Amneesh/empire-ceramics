@@ -249,7 +249,7 @@ header {
         justify-content: flex-start;
         transition: right 0.3s;
         z-index: -1;
-        background-color: rgba(0, 0, 0, 0.478);
+        background-color: rgba(0, 0, 0, 0.882);
         backdrop-filter: blur(20px);
         padding: 12rem 0 0 0;
         box-sizing: border-box;
@@ -1777,16 +1777,22 @@ aside {
 
     .hero-content {
         max-width: 1200px;
-        padding: 15rem 3rem;
         color: white;
         position: absolute;
+        padding: 1rem 2.5rem;
         bottom: 0;
-
+        display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-flow: column;
+height: 100vh;
         z-index: 99999;
 
         h1 {
+            
             margin: 0;
-            font-size: 6rem;
+       font-size: clamp(50px, 6vw, 90px);
+            padding-bottom: 2rem;
         }
 
         p {
@@ -2067,6 +2073,8 @@ filter: brightness(0.5);
 
 
 .logo-home{
+    top: -30px;
+    left: -40px;
     position: absolute;
     z-index: 999999;
     width: 300px;
