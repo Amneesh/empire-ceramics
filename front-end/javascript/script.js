@@ -1,3 +1,5 @@
+AOS.init();
+
 var headerMenu = document.getElementById('header-menu-mobile');
 
 function openMenu() {

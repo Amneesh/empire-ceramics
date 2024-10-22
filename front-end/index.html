@@ -11,17 +11,62 @@
         crossorigin="anonymous" referrerpolicy="no-referrer">
     <script src="./javascript/script.js" defer></script>
     <script src="../backend/server.js" type="module"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
 
 </head>
 
-<body>
-    <header>
-        <div class="header-wrapper">
-            <div class="header-bar">
-                <div class="header-logo">
 
+
+
+
+</section>
+
+
+<body>
+ 
+    <header>
+        <div class="header-banner">
+
+            <div class="header-banner-content">
+                <div class="social-icons">
+                <a href="https://www.facebook.com/empireartofdetail?mibextid=YMEMSu" target="_blank"
+                    aria-label="Go to facebook profile"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+        
+                <a href="https://www.instagram.com/empiredetail/?igsh=MTNiMTUzOGdmbTFtNw%3D%3D" target="_blank"
+                    aria-label="Go to instagram profile"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+        
+                <a href="https://www.tiktok.com/@empiredetailing?_t=8lmIOnOKFKj&_r=1" target="_blank"
+                    aria-label="Go to tiktok profile"><i class="fa-brands fa-tiktok" aria-hidden="true"></i> </a>
+        
                 </div>
+                
+                <div class="contact-icons">
+    
+                    <div class="in-person-details-phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+17786839600">
+                            <p>778-683-9600</p>
+                        </a>
+                    </div>
+                    <div class="in-person-details-mail">
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:empiredetailgart@gmail.com">
+                            <p>empiredetailart@gmail.com</p>
+                        </a>
+                    </div>
+    
+                </div>
+            </div>
+    
+        </div>
+     
+        <div class="header-wrapper">
+
+            <div class="header-bar">
+
                 <div class="bloom-mobile-header" id="header-menu-mobile">
                     <div class="toggle-nav">
                         <i class="fa-solid fa-bars" id="openNavButton"></i>
@@ -49,91 +94,136 @@
                         </ul>
                     </nav>
                 </div>
-            </div>
-            <div class="animated-image">
-                <img src='./resources/Detailing.png' alt='banner image'>
+
             </div>
 
-            <div class="car-video " id="homeScreen2">
+            <div class="animated-image" data-aos="fade-right">
+                <img src='./resources/Detailing.png' alt='banner image'>
+                <div class="brand-tile">
+                   
+                    <p>&#8220;A TRUSTED BRAND AMONG INDUSTRY LEADERS &#8221;</p>
+
+                </div>
+    
+            </div>
+           
+            <!-- <div class="car-video " id="homeScreen2">
                 <video autoplay muted loop id="home-video" src="./resources/home-video.mp4"
                     aria-label="Intro Video for empire detailing">
                     <track kind="captions" src='#' srclang="en" label="English">
                 </video>
+            </div> -->
+            <div class="main-tile">
+                <div class="tile-content">
+                    <button class="book-ceramic-coating">BOOK YOUR CERAMIC COATING</button>
+                </div>
             </div>
 
         </div>
     </header>
 
+
     <main>
-        <section class="our-services" id="services">
-            <h1 class="visually-hidden">Services Tailored for Your Car</h1>
-            <div class="article-features">
-                <h2>Explore Our Services</h2>
-                <article>
-                    <div class="ceramic-container-1 ceramic-card">
-                        <img class="card-1-img" src="./resources/icons/car-2.png" alt="">
 
-                        <h3>CERAMIC COATING</h3>
-                        <a href="./pages/ceramic-coating.html" class="view-more">
-                            <p>View More</p>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                        <!-- <p>Elevate your vehicle with Ceramic Coating, a liquid polymer that crystallizes into a glass-like
-                            layer, bonding to your car's paint for a deep, glossy finish. Enjoy effortless cleaning,
-                            enhanced protection, and a lasting shine, all backed by warranty.</p> -->
-                    </div>
-                </article>
-                <article>
-                    <div class="ceramic-container-2 ceramic-card">
-                        <img class="card-2-img" src="./resources/icons/car-3.png" alt="">
-                        <h3>Paint protection Film</h3>
-                        <a href="./pages/paint-protection.html" class="view-more">
-                            <p>View More</p>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                        <!-- <p>Elevate your vehicle with Ceramic Coating, a liquid polymer that crystallizes into a glass-like
-                            layer, bonding to your car's paint for a deep, glossy finish. Enjoy effortless cleaning,
-                            enhanced protection, and a lasting shine, all backed by warranty.</p> -->
-                    </div>
-                </article>
-                <article>
-                    <div class="ceramic-container-3 ceramic-card">
-                        <img class="card-3-img" src="./resources/icons/car.png" alt="">
+        <section class="services-test">
+            <div class="service-heading">
 
-                        <h3>Auto detailing</h3>
-
-                        <a href="./pages/auto-detailing.html" class="view-more">
-                            <p>View More</p>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                        <!-- <p>Elevate your vehicle with Ceramic Coating, a liquid polymer that crystallizes into a glass-like
-                            layer, bonding to your car's paint for a deep, glossy finish. Enjoy effortless cleaning,
-                            enhanced protection, and a lasting shine, all backed by warranty.</p> -->
-                    </div>
-                </article>
-                <article>
-                    <div class="ceramic-container-4 ceramic-card">
-                        <img class="card-4-img" src="./resources/icons/car-4.png" alt="">
-
-                        <h3>Marine</h3>
-                        <a href="./pages/marine.html" class="view-more">
-                            <p>View More</p>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                        <!-- <p>Elevate your vehicle with Ceramic Coating, a liquid polymer that crystallizes into a glass-like
-                            layer, bonding to your car's paint for a deep, glossy finish. Enjoy effortless cleaning,
-                            enhanced protection, and a lasting shine, all backed by warranty.</p> -->
-                    </div>
-                </article>
+                <h1>Our services</h1>
+                <hr>
             </div>
-            <div class="empty-container"></div>
+
+            <div class="service-sub-section">
+                <div class="service-3 service-card" data-aos="flip-up" >
+                    <a href="./pages/ceramic-coating.html">
+                    <div class="service-img"><img
+                            src="./resources/ceramic-coating/pexels-wavyvisuals-377312923-20042056.jpg" alt="service1">
+                    </div>
+                    <div class="services-text">
+                        <h2>Ceramic Coating</h2>
+                    </div>
+                    </a>
+                </div>
+                <div class="service-1  service-card" data-aos="flip-up" >
+                    <a href="./pages/auto-detailing.html">
+                    <div class="service-img"><img src="./resources/auto-detailing/auto-detailing-card-img.jpg"
+                            alt="service1"></div>
+                    <div class="services-text">
+                        <h2>Auto Detailing </h2>
+                    </div>
+                    </a>
+                </div>
+                <div class="service-2 service-card" data-aos="flip-up" >
+                    <a href="./pages/paint-protection.html">
+                    <div class="service-img"><img
+                            src="./resources/paint-protection/pexels-wavyvisuals-377312923-20051468.jpg" alt="service1">
+                    </div>
+                    <div class="services-text">
+                        <h2>Paint Protection</h2>
+                    </div>
+                </a>
+                </div>
+
+                <div class="service-4 service-card" data-aos="flip-up" >
+                    <a href="./pages/marine.html">
+                    <div class="service-img"><img src="./resources/marine-data/marine-card-image.png" alt="service1">
+                    </div>
+                    <div class="services-text">
+                        <h2>Marine</h2>
+                    </div>
+                    </a>
+                </div>
+            </div>
+
         </section>
 
-        <section class="about-us" id="about-us">
+
+        <section class="who-we-are">
+            <div class="who-we-are-content">
+                <div class="who-we-are-heading" data-aos="fade-right" data-aos-offset="150"
+                    data-aos-easing="ease-in-sine">
+                    <h1>Who we are</h1>
+                </div>
+
+                <div class="who-we-are-text" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <hr>
+
+                    <p class="about-content-details"> <span>"</span>At Empire Detailing, our obsession with automotive
+                        perfection
+                        started in childhood, where the
+                        joy of playing with toy cars sparked a lifelong passion for bringing vehicles to life.
+                        Specializing in Paint Protection and Ceramic Coatings, we’ve trained with prestigious
+                        dealerships including Porsche, Range Rover, BMW, and Audi. Certified by industry leaders, we
+                        deliver top-tier results with precision and care. Your vehicle deserves the Empire
+                        Experience.<span>"</span></p>
+                    <p class="attribute">~ DIL</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- <section class="our-services" id="services">
+            <h1 class="visually-hidden">Services Tailored for Your Car</h1>
+            <div class="article-features">
+                <h2>Our Story</h2>
+                <div class="about-us-content">
+
+                    <hr>
+                    
+                </div>
+
+
+            </div>
+            <div class="empty-container"></div>
+        </section> -->
+
+        <!-- <section class="about-us" id="about-us">
 
             <div class="tire-container">
                 <div class="tire"></div>
-                <div class="chooser">
+
+                <div class="chooser" data-aos="zoom-in">
                     <div class="about-us-content">
                         <h2>Our Story</h2>
                         <hr>
@@ -151,9 +241,9 @@
                 </div>
             </div>
 
-        </section>
+        </section> -->
 
-     
+
 
         <section id="contactUs">
             <div class="contactUs-container">
@@ -162,8 +252,8 @@
             </div>
             <div class="contact-form">
 
-                <form id="contactForm">
-                    <h2>GET FREE QUOTE WITH US TODAY</h2>
+                <form id="contactForm" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                    <h2>GET A FREE QUOTE</h2>
                     <div class="personal-details">
                         <h3 class="visually-hidden">Personal Details</h3>
                         <div class="full-name">
@@ -190,7 +280,7 @@
                     </div>
                     <div class="vehicle-details">
                         <h3 class="visually-hidden">Vehicle Details</h3>
-                        <div class="vehicle-detail-1">
+                        <!-- <div class="vehicle-detail-1">
 
                             <div class="car-form-fields">
                                 <label for="vehicle-make">Vehicle Make:</label>
@@ -202,13 +292,13 @@
                                 <input type="text" id="vehicle-model" name="vehicle-model"><br><br>
                             </div>
 
-                        </div>
+                        </div> -->
                         <div class="vehicle-detail-2">
 
-                            <div class="car-form-fields">
+                            <!-- <div class="car-form-fields">
                                 <label for="vehicle-option">Vehicle Option:</label>
                                 <input type="text" id="vehicle-option" name="vehicle-option"><br><br>
-                            </div>
+                            </div> -->
 
                             <div class="car-form-fields">
                                 <label for="service">Service:</label>
@@ -218,6 +308,7 @@
                                     <option value="paint-protection-film">Paint Protection Film</option>
                                     <option value="window-tint">Window Tint</option>
                                     <option value="auto-detailing">Auto Detailing</option>
+                                    <option value="marine-ceramic-coating">Marine Ceramic Coating</option>
                                 </select>
                             </div>
 
@@ -228,7 +319,7 @@
                     <button id="contact-form-button"><span>Submit</span></button>
                 </form>
                 <div class="thankyou-container" id="thankyouContainer">
-                    <h2>Thank you for your interest in our services!</h2>
+                    <h2>Thank you for your interest !</h2>
                 </div>
             </div>
         </section>
@@ -521,102 +612,6 @@
 
         </section>
 
-        <section id="our-in-person-details">
-            <h2 class="visually-hidden">COME VISIT US & DRIVE AWAY WITH YOUR NEW CAR!</h2>
-            <div class="in-person-details">
-                <div class="in-person-details-phone">
-                    <i class="fa-solid fa-phone"></i>
-                    <a href="tel:+17786839600">
-                        <p>+1(778)-(683)-(9600)</p>
-                    </a>
-                </div>
-                <div class="in-person-details-mail">
-                    <i class="fa-solid fa-envelope"></i>
-                    <a href="mailto:empiredetailgart@gmail.com">
-                        <p>empiredetailart@gmail.com</p>
-                    </a>
-                </div>
-                <div class="in-person-details-address">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <p>Vancouver | Surrey | White rock | Abbotsford | Langley</p>
-
-                </div>
-            </div>
-            <div class="in-person-maps">
-                <!-- <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d353540.43965490116!2d-122.700971!3d49.1596749!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d9bdda150555%3A0x7d24eaa9591800b!2sEmpire%20Detailing!5e1!3m2!1sen!2sca!4v1727920341338!5m2!1sen!2sca"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-            </div>
-            <hr>
-            <div class="in-person-social-media">
-                <a href="https://www.facebook.com/empireartofdetail?mibextid=YMEMSu" target="_blank"
-                    aria-label="Go to facebook profile"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
-
-                <a href="https://www.instagram.com/empiredetail/?igsh=MTNiMTUzOGdmbTFtNw%3D%3D" target="_blank"
-                    aria-label="Go to instagram profile"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
-
-                <a href="https://www.tiktok.com/@empiredetailing?_t=8lmIOnOKFKj&_r=1" target="_blank"
-                    aria-label="Go to tiktok profile"><i class="fa-brands fa-tiktok" aria-hidden="true"></i> </a>
-            </div>
-            <hr class="section-ending">
-            <!-- <article>
-            <video id="video1" controls>
-                <source src="./resources/empire-content-videos/082DF0ED-8BA7-44A1-9682-CFE227766396.mp4" type="video/mp4">   
-              </video>
-
-              
-              
-              
-              
-                <h3>lorem</h3>
-                <p>lore</p>
-
-            </article>
-            <article>
-                <video controls>
-                    <source src="./resources/empire-content-videos/IMG_2342.mov" type="video/mp4">   
-                  </video>
-    
-                <h3>lorem</h3>
-                <p>lorem</p>
-            </article>
-            <article>
-                <video controls>
-                    <source src="./resources/empire-content-videos/IMG_4342.MOV" type="video/mp4">   
-                  </video>
-    
-                <h3></h3>
-                <p></p>
-            </article>
-            <article>
-                <video controls>
-                    <source src="./resources/empire-content-videos/IMG_5613.MOV" type="video/mp4">   
-                  </video>
-    
-                <h3></h3>
-                <p></p>
-            </article>
-            <article>
-                <video controls>
-                    <source src="./resources/empire-content-videos/IMG_5992.MOV" type="video/mp4">   
-                  </video>
-    
-                <p></p>
-            </article>
-            <article>
-                <video controls muted>
-                    <source src="./resources/empire-content-videos/IMG_7245.MOV
-                    " type="video/mp4">   
-                  </video>
-    
-                <h3></h3>
-                <p></p>
-            </article>  -->
-
-
-        </section>
-
 
     </main>
 
@@ -638,3 +633,4 @@
 </body>
 
 </html>
+
