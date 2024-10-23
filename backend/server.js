@@ -1,10 +1,12 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js";
-import { getFirestore, addDoc, collection, doc, updateDoc, deleteDoc, getDocs, where } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore.js";
-import { getDatabase, set, get, child, query } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-database.js";   // ref
-// Initialize Firestore
-import dotenv from 'dotenv'
-dotenv.config();
-console.log(process.env.FIREBASE_API_KEY);
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js';
+import { getFirestore, collection , addDoc } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js';
+import { getDatabase } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-database.js';
+
+// import dotenv from './dotenv';
+// dotenv.config();
+
+
+// console.log(process.env.FIREBASE_API_KEY);
 // const firebaseConfig = {
 //   apiKey: process.env.FIREBASE_API_KEY,
 //   authDomain: process.env.FIREBASE_AUTH_DOMAIN,
@@ -30,6 +32,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 const firestoreInstance = getFirestore(app);
+
 console.log(database);
 
 console.log(app);
@@ -48,9 +51,9 @@ contactButton.addEventListener('click', (e) => {
       phone: document.getElementById('phone').value || "No Value",
     },
     car_details: {
-      vehicle_make: document.getElementById('vehicle-make').value || "No Value",
-      vehicle_model: document.getElementById('vehicle-model').value || "No Value",
-      vehicle_option: document.getElementById('vehicle-option').value || "No Value",
+      // vehicle_make: document.getElementById('vehicle-make').value || "No Value",
+      // vehicle_model: document.getElementById('vehicle-model').value || "No Value",
+      // vehicle_option: document.getElementById('vehicle-option').value || "No Value",
       service: document.getElementById('service').value || "No Value",
     }
   }
